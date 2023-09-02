@@ -1,0 +1,18 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class AreaCirculo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+
+		int r = sc.nextInt();
+		double pi = 3.14159;
+		double area = pi * (double) Math.pow(r, 2.0);
+		Locale.setDefault(Locale.US);
+		System.out.printf("A = %.4f%n", area);
+
+	}
+
+}

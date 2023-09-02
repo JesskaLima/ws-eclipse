@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Entrada_de_Dados {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int x;
+		x = sc.nextInt("Digite algo: ");
+		System.out.println("Voce digitou: " + x);
+		
+		sc.close();
+
+	}
+
+}

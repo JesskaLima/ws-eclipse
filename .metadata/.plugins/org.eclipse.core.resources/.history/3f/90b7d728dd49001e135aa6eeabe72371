@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class AreaCirculo {
+	Scanner sc = new Scanner(System.in);
+	int r;
+	r = sc.scanner();
+
+	
+
+}
