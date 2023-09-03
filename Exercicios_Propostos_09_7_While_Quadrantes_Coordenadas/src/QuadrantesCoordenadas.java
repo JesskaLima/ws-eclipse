@@ -10,16 +10,16 @@ public class QuadrantesCoordenadas {
 
 		while (x != 0 && y != 0) {
 			if (x > 0 && y > 0) {
-				System.out.println("Q1");
+				System.out.println("primeiro");
 
 			} else if (x < 0 && y > 0) {
-				System.out.println("Q2");
+				System.out.println("segundo");
 
 			} else if (x < 0 && y < 0) {
-				System.out.println("Q3");
+				System.out.println("terceiro");
 
 			} else if (x > 0 && y < 0) {
-				System.out.println("Q4");
+				System.out.println("quarto");
 
 			}
 			x = sc.nextInt();
