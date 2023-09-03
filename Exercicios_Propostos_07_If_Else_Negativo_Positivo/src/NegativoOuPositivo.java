@@ -8,7 +8,9 @@ public class NegativoOuPositivo {
 		
 		if (numero >= 0) {
 			System.out.println("Nao negativo");
-		} else {
+		} 
+		
+		else {
 			System.out.println("Negativo");
 		}
 		
