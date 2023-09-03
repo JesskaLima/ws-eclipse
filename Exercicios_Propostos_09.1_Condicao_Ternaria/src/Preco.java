@@ -13,6 +13,8 @@ public class Preco {
 		}
 		System.out.println(desconto);
 		
+		// condição ternária
+		
 		double desconto1 = (preco < 20) ? preco * 0.1 : preco * 0.5;
 		System.out.println(desconto1);
 
