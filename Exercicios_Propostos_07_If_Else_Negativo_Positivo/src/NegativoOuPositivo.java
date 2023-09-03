@@ -14,6 +14,7 @@ public class NegativoOuPositivo {
 			System.out.println("Negativo");
 		}
 		
+		
 		sc.close();
 	}
 
