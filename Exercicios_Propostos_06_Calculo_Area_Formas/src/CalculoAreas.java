@@ -22,7 +22,7 @@ public class CalculoAreas {
 				+ "QUADRADO: %.3f%nRETANGULO: %.3f%n", area_triangulo, 
 				area_circulo, area_trapezio, area_quadrado, area_retangulo);
 		
-		
+		sc.close();
 
 	}
 

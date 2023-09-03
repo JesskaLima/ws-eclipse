@@ -17,7 +17,7 @@ public class Funcionarios {
 		System.out.printf("SALARY = %.2f", calculo_salario);
 		
 		
-
+		sc.close();
 	}
 
 }

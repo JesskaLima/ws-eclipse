@@ -19,7 +19,8 @@ public class Main {
 		double x2 = (-(b) - (Math.sqrt(delta))) / (2 * a);
 		System.out.printf("%.2f%n", x1);
 		System.out.printf("%.2f%n", x2);
-
+		
+		sc.close();
 	}
 
 }

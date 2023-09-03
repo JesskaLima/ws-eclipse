@@ -21,7 +21,8 @@ public class Vendas {
 		double resultado_final = total_peca1 + total_peca2;
 		
 		System.out.printf("Valor a pagar: %.2f", resultado_final);
-
+		
+		sc.close();
 	}
 
 }

@@ -13,7 +13,7 @@ public class Diferenca {
 		int diferenca = (a * b) - (c* d);
 		System.out.printf("DIFERENCA = %d", diferenca);
 		
-
+		sc.close();
 	}
 
 }

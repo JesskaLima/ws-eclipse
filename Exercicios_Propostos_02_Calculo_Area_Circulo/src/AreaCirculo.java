@@ -13,7 +13,8 @@ public class AreaCirculo {
 		double area = pi * Math.pow(r, 2.0);
 		
 		System.out.printf("A = %.4f%n", area);
-
+		
+		sc.close();
 	}
 
 }

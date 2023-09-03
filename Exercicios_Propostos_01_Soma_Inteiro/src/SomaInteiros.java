@@ -12,7 +12,7 @@ public class SomaInteiros {
 		int soma = a + b;
 		System.out.println(soma);
 		
-
+		sc.close();
 	}
 
 }
