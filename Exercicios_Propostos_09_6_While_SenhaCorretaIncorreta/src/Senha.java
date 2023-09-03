@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Senha {
@@ -12,8 +13,7 @@ public class Senha {
 			
 			System.out.println("Senha Invalida");
 			senha = sc.nextInt();
-		} 
-		
+		}		
 		System.out.println("Acesso Permitido");
 	
 		
