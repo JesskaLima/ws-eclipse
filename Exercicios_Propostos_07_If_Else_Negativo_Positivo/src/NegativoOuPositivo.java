@@ -13,8 +13,7 @@ public class NegativoOuPositivo {
 		else {
 			System.out.println("Negativo");
 		}
-		
-		
+				
 		sc.close();
 	}
 
