@@ -10,6 +10,7 @@ public class Entrada_de_Dados {
 		x = sc.next().charAt(3);
 		System.out.println("Voce digitou: " + x);
 		
+		
 		sc.close();
 
 	}
