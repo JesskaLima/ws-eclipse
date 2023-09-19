@@ -3,38 +3,37 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
+import entities.Triangulo;
+
 public class Program {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double xA, xB, xC, yA, yB, yC;
+		Triangulo x, y;
+		x = new Triangulo();
+		y = new Triangulo();
 		
 		System.out.println("Digite os lados do triangulo X: ");
-		xA = sc.nextDouble();
-		xB = sc.nextDouble();
-		xC = sc.nextDouble();
+		x.a = sc.nextDouble();
+		x.b = sc.nextDouble();
+		x.c = sc.nextDouble();
 		
 		System.out.println("Digite os lados do triangulo Y: ");
-		yA = sc.nextDouble();
-		yB = sc.nextDouble();
-		yC = sc.nextDouble();
+		y.a = sc.nextDouble();
+		y.b = sc.nextDouble();
+		y.c = sc.nextDouble();
 		
-		double p = (xA + xB + xC) / 2.00;
-		double areaX = Math.sqrt(p * (p - xA) * (p - xB) * (p - xC));
+				
+		System.out.printf("Area do triangulo X: %.4f%n", x.area());
+		System.out.printf("Area do triangulo Y: %.4f%n", y.area());
 		
-		p = (yA + yB + yC) / 2.00;
-		double areaY = Math.sqrt(p * (p - yA) * (p - yB) * (p - yC));
-		
-		System.out.printf("Area do triangulo X: %.4f%n", areaX);
-		System.out.printf("Area do triangulo Y: %.4f%n", areaY);
-		
-		if (areaX > areaY) {
-			System.out.println("Area X é maior");
+		if (x.area() > y.area()) {
+			System.out.println("Area X eh maior");
 		}
 		else {
-			System.out.println("Area Y é maior");
+			System.out.println("Area Y eh maior");
 		}
 		sc.close();
 	}
