@@ -20,12 +20,28 @@ public class Program {
 		product.price = sc.nextDouble();
 		System.out.print("Quantidade: ");
 		product.quantity = sc.nextInt();
-		 
-		System.out.println(product);
 		
+		System.out.println();
+		System.out.println("Dados do produto: " + product);
 		
+		System.out.println();
+		System.out.print("Entre com o numero de produtos "
+				+ "a serem adicionados no estoque: ");
+		int quantity = sc.nextInt();
+		product.addProducts(quantity);
 		
+		System.out.println();
+		System.out.println("Update data: " + product);
 		
+		System.out.println();
+		System.out.print("Entre com o numero de produtos "
+				+ "a serem retirados do estoque: ");
+		quantity = sc.nextInt();
+		product.removeProducts(quantity);
+		
+		System.out.println();
+		System.out.println("Update data: " + product);
+			
 		
 		sc.close();
 

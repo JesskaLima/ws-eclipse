@@ -19,10 +19,10 @@ public class Product {
 	}
 	
 	public String toString() {
-		return "Dados do produto:" + name + ", "
+		return name + ", "
 		+ "$ " + String.format("%.2f", price)
 		+ ", " + quantity 
-		+ " units, Valor total: "
+		+ " unidades, Total: "
 		+ String.format("%.2f", totalValueInStock());
 	}
 }
