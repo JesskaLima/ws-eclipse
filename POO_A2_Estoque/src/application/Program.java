@@ -21,9 +21,7 @@ public class Program {
 		System.out.print("Quantidade: ");
 		product.quantity = sc.nextInt();
 		 
-		System.out.println(product.name 
-				+ ", " + product.price 
-				+ ", " + product.quantity);
+		System.out.println(product);
 		
 		
 		
