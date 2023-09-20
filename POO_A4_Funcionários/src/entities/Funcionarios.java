@@ -7,15 +7,23 @@ public class Funcionarios {
 	public double imposto;
 	
 	
+	
 	public double salarioLiquido() {
-		double salario = salarioBruto - imposto;
-		return salario;
+		 return salarioBruto - imposto;
+		
 	}
 	
-	public void aumentoSalario(double porcentagem) {
-		double aumento = salarioLiquido() * porcentagem;
-		return aumento;
-		
+	public double aumentoSalario(double porcentagem) {
+		return salarioBruto += salarioBruto * porcentagem / 100;
+			
+	}
+	
+	
+	
+	public String toString() {
+		return name + ", "
+				+ "$ " 
+				+ String.format("%.2f", salarioLiquido());
 	}
 
 }
