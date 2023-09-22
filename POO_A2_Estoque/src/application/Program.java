@@ -19,10 +19,7 @@ public class Program {
 		System.out.print("Price: ");
 		double price = sc.nextDouble();
 		
-		System.out.print("Quantidade: ");
-		int quantity = sc.nextInt();
-		
-		Product product = new Product(name, price, quantity);
+		Product product = new Product(name, price);
 		
 		System.out.println();
 		System.out.println("Dados do produto: " + product);
@@ -30,7 +27,7 @@ public class Program {
 		System.out.println();
 		System.out.print("Entre com o numero de produtos "
 				+ "a serem adicionados no estoque: ");
-		quantity = sc.nextInt();
+		int quantity = sc.nextInt();
 		product.addProducts(quantity);
 		
 		System.out.println();
