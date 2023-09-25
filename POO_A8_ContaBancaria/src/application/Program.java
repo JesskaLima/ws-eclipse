@@ -8,7 +8,7 @@ import entities.ContaBancaria;
 /*Em um banco, para se cadastrar uma conta bancária, é necessario
  * informar o numero da conta, o nome do titular da conta, e o 
  * valor inicial que o titular depositou ao abrir a conta. Este valor de depósito 
- * inicial, entretanto, é opicional, ou seja: se o titular não tiver dinheiro a
+ * inicial, entretanto, é opcional, ou seja: se o titular não tiver dinheiro a
  * depositar no momento de abrir sua conta, o depósito inicial não será feito e
  * o saldo inicial será, naturalmente, zero.
  * 
@@ -25,6 +25,7 @@ import entities.ContaBancaria;
  * Você deve fazer um programa que realize o cadastro de uma conta, dando opção para que seja ou 
  * não informado o valor de depósito inicial. Em seguida, realizar um depósito e depois um saque,
  * sempre mstrando os dados da conta após cada operação.*/
+
 public class Program {
 
 	public static void main(String[] args) {
